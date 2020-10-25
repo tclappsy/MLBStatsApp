@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F971761E254610690058F0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971761D254610690058F0A7 /* AppDelegate.swift */; };
+		F9717620254610690058F0A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971761F254610690058F0A7 /* SceneDelegate.swift */; };
+		F9717622254610690058F0A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9717621254610690058F0A7 /* ViewController.swift */; };
+		F9717625254610690058F0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9717623254610690058F0A7 /* Main.storyboard */; };
+		F97176272546106D0058F0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97176262546106D0058F0A7 /* Assets.xcassets */; };
+		F971762A2546106D0058F0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97176282546106D0058F0A7 /* LaunchScreen.storyboard */; };
+		F97176352546106D0058F0A7 /* BaseballApp___MidtermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97176342546106D0058F0A7 /* BaseballApp___MidtermTests.swift */; };
+		F97176402546106D0058F0A7 /* BaseballApp___MidtermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971763F2546106D0058F0A7 /* BaseballApp___MidtermUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F97176312546106D0058F0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9717612254610690058F0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9717619254610690058F0A7;
+			remoteInfo = "BaseballApp - Midterm";
+		};
+		F971763C2546106D0058F0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9717612254610690058F0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9717619254610690058F0A7;
+			remoteInfo = "BaseballApp - Midterm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F971761A254610690058F0A7 /* BaseballApp - Midterm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BaseballApp - Midterm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F971761D254610690058F0A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F971761F254610690058F0A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9717621254610690058F0A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9717624254610690058F0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F97176262546106D0058F0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97176292546106D0058F0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F971762B2546106D0058F0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97176302546106D0058F0A7 /* BaseballApp - MidtermTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BaseballApp - MidtermTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97176342546106D0058F0A7 /* BaseballApp___MidtermTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseballApp___MidtermTests.swift"; sourceTree = "<group>"; };
+		F97176362546106D0058F0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F971763B2546106D0058F0A7 /* BaseballApp - MidtermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BaseballApp - MidtermUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F971763F2546106D0058F0A7 /* BaseballApp___MidtermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseballApp___MidtermUITests.swift"; sourceTree = "<group>"; };
+		F97176412546106D0058F0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9717617254610690058F0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F971762D2546106D0058F0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97176382546106D0058F0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9717611254610690058F0A7 = {
+			isa = PBXGroup;
+			children = (
+				F971761C254610690058F0A7 /* BaseballApp - Midterm */,
+				F97176332546106D0058F0A7 /* BaseballApp - MidtermTests */,
+				F971763E2546106D0058F0A7 /* BaseballApp - MidtermUITests */,
+				F971761B254610690058F0A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F971761B254610690058F0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F971761A254610690058F0A7 /* BaseballApp - Midterm.app */,
+				F97176302546106D0058F0A7 /* BaseballApp - MidtermTests.xctest */,
+				F971763B2546106D0058F0A7 /* BaseballApp - MidtermUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F971761C254610690058F0A7 /* BaseballApp - Midterm */ = {
+			isa = PBXGroup;
+			children = (
+				F971761D254610690058F0A7 /* AppDelegate.swift */,
+				F971761F254610690058F0A7 /* SceneDelegate.swift */,
+				F9717621254610690058F0A7 /* ViewController.swift */,
+				F9717623254610690058F0A7 /* Main.storyboard */,
+				F97176262546106D0058F0A7 /* Assets.xcassets */,
+				F97176282546106D0058F0A7 /* LaunchScreen.storyboard */,
+				F971762B2546106D0058F0A7 /* Info.plist */,
+			);
+			path = "BaseballApp - Midterm";
+			sourceTree = "<group>";
+		};
+		F97176332546106D0058F0A7 /* BaseballApp - MidtermTests */ = {
+			isa = PBXGroup;
+			children = (
+				F97176342546106D0058F0A7 /* BaseballApp___MidtermTests.swift */,
+				F97176362546106D0058F0A7 /* Info.plist */,
+			);
+			path = "BaseballApp - MidtermTests";
+			sourceTree = "<group>";
+		};
+		F971763E2546106D0058F0A7 /* BaseballApp - MidtermUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F971763F2546106D0058F0A7 /* BaseballApp___MidtermUITests.swift */,
+				F97176412546106D0058F0A7 /* Info.plist */,
+			);
+			path = "BaseballApp - MidtermUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9717619254610690058F0A7 /* BaseballApp - Midterm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97176442546106D0058F0A7 /* Build configuration list for PBXNativeTarget "BaseballApp - Midterm" */;
+			buildPhases = (
+				F9717616254610690058F0A7 /* Sources */,
+				F9717617254610690058F0A7 /* Frameworks */,
+				F9717618254610690058F0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BaseballApp - Midterm";
+			productName = "BaseballApp - Midterm";
+			productReference = F971761A254610690058F0A7 /* BaseballApp - Midterm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F971762F2546106D0058F0A7 /* BaseballApp - MidtermTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97176472546106D0058F0A7 /* Build configuration list for PBXNativeTarget "BaseballApp - MidtermTests" */;
+			buildPhases = (
+				F971762C2546106D0058F0A7 /* Sources */,
+				F971762D2546106D0058F0A7 /* Frameworks */,
+				F971762E2546106D0058F0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97176322546106D0058F0A7 /* PBXTargetDependency */,
+			);
+			name = "BaseballApp - MidtermTests";
+			productName = "BaseballApp - MidtermTests";
+			productReference = F97176302546106D0058F0A7 /* BaseballApp - MidtermTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F971763A2546106D0058F0A7 /* BaseballApp - MidtermUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F971764A2546106D0058F0A7 /* Build configuration list for PBXNativeTarget "BaseballApp - MidtermUITests" */;
+			buildPhases = (
+				F97176372546106D0058F0A7 /* Sources */,
+				F97176382546106D0058F0A7 /* Frameworks */,
+				F97176392546106D0058F0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F971763D2546106D0058F0A7 /* PBXTargetDependency */,
+			);
+			name = "BaseballApp - MidtermUITests";
+			productName = "BaseballApp - MidtermUITests";
+			productReference = F971763B2546106D0058F0A7 /* BaseballApp - MidtermUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9717612254610690058F0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F9717619254610690058F0A7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F971762F2546106D0058F0A7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F9717619254610690058F0A7;
+					};
+					F971763A2546106D0058F0A7 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F9717619254610690058F0A7;
+					};
+				};
+			};
+			buildConfigurationList = F9717615254610690058F0A7 /* Build configuration list for PBXProject "BaseballApp - Midterm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9717611254610690058F0A7;
+			productRefGroup = F971761B254610690058F0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9717619254610690058F0A7 /* BaseballApp - Midterm */,
+				F971762F2546106D0058F0A7 /* BaseballApp - MidtermTests */,
+				F971763A2546106D0058F0A7 /* BaseballApp - MidtermUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9717618254610690058F0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F971762A2546106D0058F0A7 /* LaunchScreen.storyboard in Resources */,
+				F97176272546106D0058F0A7 /* Assets.xcassets in Resources */,
+				F9717625254610690058F0A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F971762E2546106D0058F0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97176392546106D0058F0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9717616254610690058F0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9717622254610690058F0A7 /* ViewController.swift in Sources */,
+				F971761E254610690058F0A7 /* AppDelegate.swift in Sources */,
+				F9717620254610690058F0A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F971762C2546106D0058F0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97176352546106D0058F0A7 /* BaseballApp___MidtermTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97176372546106D0058F0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97176402546106D0058F0A7 /* BaseballApp___MidtermUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F97176322546106D0058F0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9717619254610690058F0A7 /* BaseballApp - Midterm */;
+			targetProxy = F97176312546106D0058F0A7 /* PBXContainerItemProxy */;
+		};
+		F971763D2546106D0058F0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9717619254610690058F0A7 /* BaseballApp - Midterm */;
+			targetProxy = F971763C2546106D0058F0A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9717623254610690058F0A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9717624254610690058F0A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F97176282546106D0058F0A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97176292546106D0058F0A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F97176422546106D0058F0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F97176432546106D0058F0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F97176452546106D0058F0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BaseballApp - Midterm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.cs337.s1218375.BaseballApp---Midterm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F97176462546106D0058F0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BaseballApp - Midterm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.cs337.s1218375.BaseballApp---Midterm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F97176482546106D0058F0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BaseballApp - MidtermTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.cs337.s1218375.BaseballApp---MidtermTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballApp - Midterm.app/BaseballApp - Midterm";
+			};
+			name = Debug;
+		};
+		F97176492546106D0058F0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BaseballApp - MidtermTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.cs337.s1218375.BaseballApp---MidtermTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballApp - Midterm.app/BaseballApp - Midterm";
+			};
+			name = Release;
+		};
+		F971764B2546106D0058F0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BaseballApp - MidtermUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.cs337.s1218375.BaseballApp---MidtermUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BaseballApp - Midterm";
+			};
+			name = Debug;
+		};
+		F971764C2546106D0058F0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BaseballApp - MidtermUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.cs337.s1218375.BaseballApp---MidtermUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BaseballApp - Midterm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9717615254610690058F0A7 /* Build configuration list for PBXProject "BaseballApp - Midterm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97176422546106D0058F0A7 /* Debug */,
+				F97176432546106D0058F0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97176442546106D0058F0A7 /* Build configuration list for PBXNativeTarget "BaseballApp - Midterm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97176452546106D0058F0A7 /* Debug */,
+				F97176462546106D0058F0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97176472546106D0058F0A7 /* Build configuration list for PBXNativeTarget "BaseballApp - MidtermTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97176482546106D0058F0A7 /* Debug */,
+				F97176492546106D0058F0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F971764A2546106D0058F0A7 /* Build configuration list for PBXNativeTarget "BaseballApp - MidtermUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F971764B2546106D0058F0A7 /* Debug */,
+				F971764C2546106D0058F0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9717612254610690058F0A7 /* Project object */;
+}
